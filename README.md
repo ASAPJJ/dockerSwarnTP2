@@ -12,10 +12,10 @@
   
 
 #### Comando para Desplegar Servicios con Docker Swarm:
-- Utiliza el archivo "servicios.yml" para configurar el despliegue y ejecuta:
+- Utiliza el archivo "docker-compose.yml" para configurar el despliegue y ejecuta:
   
 
-  docker stack deploy -c servicios.yml services
+  docker stack deploy -c docker-compose.yml services
 
 
 #### Acceso a los Servicios:
